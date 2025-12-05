@@ -1,5 +1,5 @@
 /*
-    Name: 
+    Name: Edward Mora
 */
 
 :root{
@@ -74,6 +74,12 @@ header{
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 2rem; 
+    gap: 1.5rem; 
+    color: white;
 }
 
 /* For All Headings */
@@ -137,6 +143,11 @@ nav ul{
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    align-content: center;
 }
 
 nav a{
